@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20;
+  margin: 20;
+  font-family: "Karla", sans-serif;
+}
+.tipsgrid {
+  display: inline-grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "tip1 tip2 tip3"
+    "tip 4 image image";
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 20pt;
+}
+.tip1 {
+  background-color: #8fd694;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tip2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f68e5f;
+}
+.tip3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8fd694;
+}
+.tip4 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f68e5f;
+}
+.image {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  background-image: url("images/vegetables.jpg");
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para {
+  font-size: 12pt;
+}
