@@ -5,29 +5,116 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css" type="text/css">
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="javascript/index.js"></script>
   <title>Joey Hornsby</title>
 </head>
 <body>
-  <h1>Joey Hornsby</h1>
-  CV | Medium | LinkedIn
   <div class="maingrid">
-    <div id="box1">
-        <p id="first">H-APPY</p>
+  <div id="headerbox1" class="gridbox">
+  <h1>Joey Hornsby</h1>
+  <h2>she/her / Junior Software Dev / Makers Graduate / Bike person / Knitting enthusiast / Cat owner</h2>
+  <h3><a href = "https://github.com/jshorns/CV">Github CV</a> | <a href = "https://joey-s-hornsby.medium.com/">Medium</a> | <a href = "https://www.linkedin.com/in/joey-hornsby-366b6580/">LinkedIn</a></h3>
+</div>
+<div id="headerbox3" class="gridbox">
+  <img src="images/it_me.png" id="profile-pic" alt="ooooh look it's a picture of me" />
+</div>
+    <div id="box1" class="gridbox">
+      <p id = "box1header">
+       H-APPY
+      <span class="subheader">
+        <br><br>
+        An activity finder app in the style of a restaurant menu.
+        <br><br>
+        <span class="tech-stack">
+          MongoDB, Express, React Native, Node
+        </span>
+      </span>
+      </p>
+        <p class ="content" id="box1content">
+          My final group project with Makers, completed over two weeks. Super proud of this one, both from a tech and a teamwork perspective. 
+          <br><br>
+          Turns out learning React Native in two weeks is hard! Who would have thought it...
+          <br><br>  
+          Check out the repo <a href="https://github.com/peter-james-allen/h-appy-client">here</a>.
+        </p>
+    </div>  
+    <div id="box2" class="gridbox">
+        <p id ="box2header">
+          (SP)ACEBOOK
+          <span class="subheader"><br><br>Facebook - but now with the space lizard theme you always dreamed of.<br><br><span class="tech-stack">Ruby on Rails, Circle CI</span></span>
+        </p>
+        <p class ="content" id="box2content">
+          A group project with Makers, using Rails for the first time to build a web app using Agile working methodology, with CI and CD setup.
+          <br><br>
+          A lot of fun, once we got our heads around Rails!
+          <br><br>  
+          Deployed to heroku <a href="https://lizardbook2021.herokuapp.com/">here</a>.
+          <br>
+          Check out the repo <a href="https://github.com/jshorns/acebook-challenge">here</a>.
+        </p>
+
     </div>
-    <div id="box2">
-        <p id ="second">ACEBOOK</p>
+    <div id="box3" class="gridbox">
+        <p id="box3header">
+          BANK TECH TEST
+          <span class="subheader"><br><br>Back-end logic for basic bank account functionality.<br><br><span class="tech-stack">Ruby</span></span>
+        </p>
+        <p class ="content" id="box3content">
+          An individual practice tech test written in Ruby and reviewed following feedback from a coach.
+          <br><br>
+          Kind of great to get back to pure Ruby after learning a ton of different frameworks, and JS!
+          <br><br>  
+          Check out the repo <a href="https://github.com/jshorns/bank-tech-test">here</a>.        
+        </p>
+
     </div>
-    <div id="box3">
-        <p id="third">BANK TECH TEST</p>
+    <div id="box4" class="gridbox">
+        <p id="box4header">
+          BOWLING CHALLENGE
+          <span class="subheader"><br><br>Logic for a 10 pin bowling scorecard (Ruby & JS versions).<br><br><span class="tech-stack">Ruby, Javascript</span></span>
+        </p>
+        <p class ="content" id="box4content">
+          Logic for calculating scores for 10-pin bowling, written first in Ruby and then in JS.
+          <br><br>
+          Turns out bowling is a lot more complicated than you'd think. Who knows how the Dude managed it...
+          <br><br>  
+          Check out the Ruby repo <a href="https://github.com/jshorns/bowling-challenge-ruby">here</a>.<br>
+          Check out the JS repo <a href="https://github.com/jshorns/bowling-challenge">here</a>.        
+        
+        </p>
     </div>
-    <div id="box4">
-        <p id="fourth">BOWLING CHALLENGE</p>
-    </div>
-    <div id="box5">
-      <p id="fifth">NOTES</p>
+    <div id="box5" class="gridbox">
+      <p id="box5header">
+        NOTES
+        <span class="subheader"><br><br>A simple single page note-taking app, written without libraries.<br><br><span class="tech-stack">Javascript</span></span>
+      </p>
+      <p class ="content" id="box5content">
+        A group project with Makers, where the principle challenge was to write a responsive app without any jQuery and test without a testing library.
+        <br><br>
+        We split off individually for styling, as is perhaps obvious from my comic strip theme!
+        <br><br>  
+        Deployed to github pages <a href="https://jshorns.github.io/notes/">here</a>. 
+        <br>
+        Check out the repo <a href="https://github.com/jshorns/notes">here</a>.       
+      </p>
+
   </div>
-    <div class="box6">
+    <div id="box6" class="gridbox">
+      <p id="box6header">
+        GILDED ROSE
+        <span class="subheader"><br><br>The Gilded Rose refactoring kata. Ruby version in progress!<br><br><span class="tech-stack">Ruby, Javascript</span></span>
+      </p>
+      <p class ="content" id="box6content">
+        My first project after Makers graduation, to practice refactoring and working on legacy code.
+        <br><br>
+        Sulfuras, Hand of Ragnaros? What kind of shop even is this?!       
+        <br><br>  
+        Check out the JS repo <a href="https://github.com/jshorns/gildedrose-js-jasmine">here</a>. 
+        <br>
+        Check out the (incomplete!) Ruby repo <a href="https://github.com/jshorns/gildedrose-ruby">here</a>.   
+            </p>
+    </div>
     </div>
 </body>
 </html>
